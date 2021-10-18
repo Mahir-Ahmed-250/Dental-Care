@@ -1,0 +1,18 @@
+.logo{
+    width: 60px;
+}
+.nav-links{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 22px;
+    color: white;
+    display: block;
+    padding:5px;
+}
+.company-name{
+    font-family:cursive;
+    font-size: 36px; 
+}
+.company-name-span{
+    color:  #5383d3;
+}

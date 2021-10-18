@@ -1,0 +1,86 @@
+[
+    {
+        "id": 100,
+        "name": "Cosmetic Dentistry",
+        "price": 15,
+        "img": "./images/services/cosmetics.jpg",
+        "description": "Today, cosmetic dentistry is more popular than ever, from whitening and shaping to closing spaces and replacing teeth."
+    },
+    {
+        "id": 101,
+        "name": "Pediatric Dentistry",
+        "price": 12,
+        "img": "./images/services/pediatric.jpg",
+        "description": "Pediatric dentists specialize in oral care for infants, toddlers, children, and teenagers. They are trained to handle: Treatment of children under anesthesia and sedation. Treatment of medically compromised children and adolescents"
+    },
+    {
+        "id": 102,
+        "name": "Periodontal Therapy",
+        "price": 20,
+        "img": "./images/services/periodontal.jpg",
+        "description": "Periodontal therapy includes both surgical and non-surgical techniques to restore health to the tissues that support the teeth (gums and bone) and prevent tooth loss."
+    },
+    {
+        "id": 103,
+        "name": "Tooth Whitening",
+        "price": 15,
+        "img": "./images/services/whitening.jpg",
+        "description": "Tooth whitening can be a very effective way of lightening the natural colour of your teeth without removing any of the tooth surface. It cannot make a complete colour change, but it may lighten the existing shade."
+    },
+    {
+        "id": 104,
+        "name": "Preventive Dentistry",
+        "price": 15,
+        "img": "./images/services/preventive.jpg",
+        "description": "The focus of preventive dentistry is usually to keep the teeth, gums, and mouth as healthy as possible to prevent tooth decay, gum disease, and other issues."
+    },
+    {
+        "id": 105,
+        "name": "Dental Implants",
+        "price": 18,
+        "img": "./images/services/implants.jpg",
+        "description": "Dental implants are replacement tooth roots. Implants provide a strong foundation for fixed (permanent) or removable replacement teeth that are made to match your natural teeth."
+    },
+    {
+        "id": 106,
+        "name": "Dental Bridge",
+        "price": 20,
+        "img": "./images/services/bridge.jpg",
+        "description": "A dental bridge permanently replaces missing teeth with false teeth. The bridge is attached to the teeth on either side of the gap"
+    },
+    {
+        "id": 107,
+        "name": "Dental Crowns",
+        "price": 12,
+        "img": "./images/services/crowns.jpg",
+        "description": "Dental crowns are caps placed on top of damaged teeth. Crowns are used to protect, cover and restore the shape of your teeth when fillings don't solve the problem."
+    },
+    {
+        "id": 108,
+        "name": "Dental Check-ups",
+        "price": 13,
+        "img": "./images/services/check-ups.jpg",
+        "description": "Using various tools and instruments they will remove or scrape tartar and plaque from around your gum line and the surface of your teeth."
+    },
+    {
+        "id": 109,
+        "name": "Scaling and Cleaning",
+        "price": 10,
+        "img": "./images/services/scaling.jpg",
+        "description": "Scaling and cleaning involves the removal of built-up debris from the teeth. This may include food particles, soft plaque (bacterial growth) or hard calculus (caused by the continual accumulation of plaque and minerals from saliva, sometimes called tartar). Plaque and calculus are the main causes of gum disease. "
+    },
+    {
+        "id": 110,
+        "name": "Dental Fillings",
+        "price": 13,
+        "img": "./images/services/filling.jpg",
+        "description": "Tooth decay that has caused a cavity (hole) is treated with dental fillings. The dentist uses a drill and other tools to remove the decay. The cavity is cleaned, dried and sealed with a filling material."
+    },
+    {
+        "id": 111,
+        "name": "Root Canal",
+        "price": 25,
+        "img": "./images/services/root.jpg",
+        "description": "Root canal treatment is a procedure that replaces a tooth’s damaged or infected pulp with a filling. The ‘pulp' (often called the nerve of the tooth) is sensitive tissue that provides oxygen, nutrients and feeling to the tooth. "
+    }
+]

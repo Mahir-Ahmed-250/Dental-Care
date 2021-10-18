@@ -1,0 +1,20 @@
+.welcome-text{
+   font-family:'Courier New', Courier, monospace;
+   font-size: 60px;
+   font-weight: 600;
+}
+.bannerName1{
+   color: rgb(84, 197, 235);
+   font-family: cursive;
+}
+.bannerName2{
+   color:  #5383d3;
+   font-family: cursive;
+}
+.slogan{
+   font-size: 30px;
+   font-weight: 700;  
+}
+.slide img{
+   height: 700px;
+}
