@@ -16,3 +16,12 @@
 .company-name-span{
     color:  #5383d3;
 }
+.nav-img{
+    border-radius: 50%;
+    width: 45px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.logout-btn{
+    margin-left: 20px;   
+}

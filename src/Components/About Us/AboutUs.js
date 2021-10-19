@@ -10,7 +10,7 @@ const AboutUs = () => {
                     <img src={image} alt="" />
                 </div>
                 <div className='col-md-6 col-lg-8 mt-5'>
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eum illo natus est, quasi explicabo non. Blanditiis officia cumque labore laboriosam consectetur molestias. Facere, perspiciatis. Eos nulla eum deleniti fuga non ipsa dicta quibusdam facere, et voluptatibus incidunt aliquam eveniet praesentium veniam. Rem perferendis voluptatibus magni exercitationem, rerum enim nostrum repellendus eligendi itaque et voluptas ex expedita possimus vitae! Dolorum.</h2>
+                    <h2>DentalCare is one of the largest dental Treatment providers, and we are proud to serve our patients. Our mission is to keep dentistry accessible for as many people as possible. Our staff members are well-versed in confirming coverage, but we also encourage patients to familiarize themselves with their benefits.  </h2>
                 </div>
 
             </div>

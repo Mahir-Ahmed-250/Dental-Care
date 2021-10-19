@@ -48,6 +48,22 @@
 .footer .footer-right{
  width: 20%;
 }
+.footer-icons1{
+    font-size: 30px;
+  color: 	#4267B2;
+}
+.footer-icons2{
+    font-size: 30px;
+  color: red;
+}
+.footer-icons3{
+    font-size: 30px;
+  color: #00acee;
+}
+.footer-icons4{
+    font-size: 30px;
+  color: #8a3ab9;
+}
 @media (max-width: 880px) { 
  .footer .footer-left,
  .footer .footer-center,
