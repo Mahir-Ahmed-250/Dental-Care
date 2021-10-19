@@ -19,7 +19,7 @@ const Header = () => {
                     <NavLink className='nav-links' to="/home">Home</NavLink>
                     <NavLink className='nav-links' to="/doctors">Our Doctors</NavLink>
                     <NavLink className='nav-links' to="/about">About Us</NavLink>
-                    {users.email ? <span style={{ color: 'white' }}><img className='nav-img' src={users.photoURL} alt="" /> {users.displayName}</span> : <NavLink className='nav-links' to="/registration"><Button variant="outline-success">Sign Up</Button></NavLink>}
+                    {users.email ? <span className='nav-name' style={{ color: 'white' }}><img className='nav-img' src={users.photoURL} alt="" /> {users.displayName}</span> : <NavLink className='nav-links' to="/registration"><Button variant="outline-success">Sign Up</Button></NavLink>}
                     {users.email ? <Button onClick={logOut} variant="outline-success" className='logout-btn'>Log Out</Button> : <NavLink className='nav-links' to="/login"><Button variant="outline-primary">Login</Button></NavLink>}
                 </Navbar.Collapse>
             </Container>

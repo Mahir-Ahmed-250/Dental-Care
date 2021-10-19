@@ -9,7 +9,7 @@ const Doctor = ({ doctor }) => {
                 <Card className='card' >
                     <Card.Img variant="top" src={img} />
                     <Card.Body>
-                        <h5 className=''> {name}</h5>
+                        <h5 className='text-center'> {name}</h5>
                     </Card.Body>
                 </Card>
             </div>

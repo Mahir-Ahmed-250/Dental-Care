@@ -10,7 +10,7 @@ const Youtube = () => {
                 </div>
                 <div className='col-md-12 col-lg-6'>
                     <div>
-                        <h1 className="text-center client-text"> Watch on <span className="youtube">YouTube</span>
+                        <h1 className="text-center"> Watch on <span className="youtube">YouTube</span>
                         </h1>
                     </div>
                     <div className="iframe-container"><iframe width="590" height="355" src="https://www.youtube.com/embed/9Qa2K1CC3Hw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

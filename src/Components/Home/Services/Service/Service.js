@@ -11,12 +11,10 @@ const Service = ({ service }) => {
             <Card className='card' >
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
-                    <h5 className=''> {name}</h5>
-                    <h6>{price}</h6>
+                    <h5 className='treatment'>{name}</h5>
+                    <h6>Price: ${price}</h6>
                     <p>{description}</p>
-
-
-                    <Link to={`/services/${id}`}><button className='btn btn-primary'>See Details</button></Link>
+                    <Link to={`/services/${id}`}><button className='btn btn-dark'>See Details</button></Link>
                 </Card.Body>
             </Card>
         </div>

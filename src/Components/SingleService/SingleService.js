@@ -29,8 +29,8 @@ const SingleService = () => {
                     <Card className='card' >
                         <Card.Img style={{ width: '100%' }} variant="top" src={singleService?.img} />
                         <Card.Body>
-                            <h5 className=''> {singleService?.name}</h5>
-                            <h6>{singleService?.price}</h6>
+                            <h5 className='treatment'> {singleService?.name}</h5>
+                            <h6>Price: ${singleService?.price}</h6>
                             <p>{singleService?.description}</p>
 
                             <Link to={'/thumbsUp'}><button className='btn btn-primary'>Book Now</button></Link>

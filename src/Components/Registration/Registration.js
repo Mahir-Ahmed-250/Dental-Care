@@ -16,18 +16,18 @@ const Registration = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-6'>
-                            <img src={image1} alt="" />
+                            <img className='animate__animated animate__fadeInLeft' src={image1} alt="" />
                         </div>
-                        <div className='col-lg-6 mt-5'>
-                            <h2>Welcome {users.displayName}</h2>
+                        <div className='col-lg-6 mt-5 '>
+                            <h2 className='animate__animated animate__fadeInRight login-text'>Welcome <br /><span className='user-name'>{users.displayName}</span></h2>
                         </div>
                     </div>
                 </div>
                 :
                 <div className='row'>
-                    <h2 className='text-center'>Sign Up</h2>
-                    <div className='col-md-6 col-lg-8'>
-                        <Form className='form-reg' onSubmit={handleRegistration} >
+                    <h2 className='text-center mt-2 sign-up'>Sign Up</h2>
+                    <div className='col-md-6 col-lg-8 animate__animated animate__fadeInLeft'>
+                        <Form className='form-reg ' onSubmit={handleRegistration} >
                             <Form.Group className="mb-3">
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control onBlur={handleNameChange} type="text" placeholder="Enter Your Name" required />
@@ -47,14 +47,13 @@ const Registration = () => {
                             <Button variant="primary" type="submit">
                                 Register
                             </Button><br />
-                            <Button className="mt-3" variant="primary" onClick={signInUsingGoogle}>
-                                Sign In Using Google?
+                            <Button className="mt-2" variant="secondary" onClick={signInUsingGoogle}>
+                                Access by Google
                             </Button>
                         </Form>
-                        <Link to='/login'>     <button >Already Have an account? sign in</button></Link>
+                        <Link to='/login'><button className='btn btn-dark mt-2' >Already Have an account? Sign In Here</button></Link>
                     </div>
-
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 animate__animated animate__fadeInRight">
                         <img src={image} alt="" />
                     </div>
                 </div>}

@@ -11,6 +11,7 @@ const Doctors = () => {
     return (
         <div className='container'>
             <div className="row">
+                <h2 className='text-center mt-2 about-heading text-center'>Meet with Our Doctors</h2>
                 {
                     doctors.map(doctor => <Doctor key={doctor.id} doctor={doctor}></Doctor>)
                 }
