@@ -12,7 +12,6 @@ const Service = ({ service }) => {
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <h5 className='treatment'>{name}</h5>
-                    <h6>Price: ${price}</h6>
                     <p>{description}</p>
                     <Link to={`/services/${id}`}><button className='btn btn-dark'>See Details</button></Link>
                 </Card.Body>
