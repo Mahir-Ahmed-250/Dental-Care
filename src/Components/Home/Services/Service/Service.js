@@ -8,7 +8,7 @@ const Service = ({ service }) => {
 
     return (
         <div className="col-md-6 col-lg-3 mt-5">
-            <Card className='card' >
+            <Card className='card home-card' >
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <h5 className='treatment'>{name}</h5>

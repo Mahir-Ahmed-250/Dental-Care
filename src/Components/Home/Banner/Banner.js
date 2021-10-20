@@ -13,7 +13,7 @@ const Banner = () => {
             <h3 className='text-center animate__animated animate__fadeInRight mt-4 slogan'>We Care Every Smile!
             </h3>
             <div>
-                <Carousel fade className="slide mt-5 " variant="dark">
+                <Carousel fade className="slide mt-5" variant="dark">
                     <Carousel.Item>
                         <img
                             className="d-block w-100"

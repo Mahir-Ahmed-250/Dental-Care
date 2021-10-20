@@ -7,3 +7,8 @@
     color: blue;
     font-size: 25px;
 }
+.home-card:hover{
+    scale: 1.01;
+    background-color:rgb(241, 239, 239);
+    cursor: pointer;
+}
